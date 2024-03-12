@@ -1,8 +1,15 @@
 async function fetchTranslations() {
-  const url = chrome.runtime.getURL('translations.json');
-  const response = await fetch(url);
-  const translations = await response.json();
-  return translations;
+  const url = 'https://raw.githubusercontent.com/kailous/cargo.site-CN/main/translations.json';
+  try {
+    const response = await fetch(url);
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+    const translations = await response.json();
+    return translations;
+  } catch (error) {
+    console.error("Fetching translations failed:", error);
+  }
 }
 
 function translateTextContent(textContent, translations) {
