@@ -232,5 +232,7 @@
     "Slide:": "滑动：",
     "Wipe:": "擦除：",
     "Slide amount": "滑动量",
-    "Update":"上传"
+    "Update":"上传",
+    "Local Page Settings": "本地页面设置",
+    "Affects current page only": "仅影响当前页面"
 }
