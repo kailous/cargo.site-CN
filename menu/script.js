@@ -1,6 +1,6 @@
 // 点击按钮setup后弹出输入框请求设置变量home
 document.getElementById('Setup').addEventListener('click', function() {
-    var home = prompt("请输入你的主页地址", "https://rrraaaddd.com/");
+    var home = prompt("请输入你的主页地址", "");
     if (home != null) {
         localStorage.setItem("home", home);
     }
@@ -19,3 +19,5 @@ document.getElementById('View').addEventListener('click', function() {
         window.open(home, '_blank');
     }
 });
+// 将home的值插入到 span#home
+document.getElementById('home').innerText = localStorage.getItem("home");

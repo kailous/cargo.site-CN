@@ -1,0 +1,23 @@
+
+
+body {
+    width: 200px;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    font-size: 28px;
+}
+h2 {
+    font-size: 14px;
+}
+h1, h2,h3,p,span,a {
+    line-height: 100%;
+    margin: 0;
+}
+div#title {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    padding: 10px;
+}
