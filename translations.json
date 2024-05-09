@@ -97,6 +97,7 @@
     "Orders": "订单",
     "Settings": "设置",
     "New Product": "新产品",
+    "New Page": "新页面",
     "Add your first product.": "添加您的第一个产品。",
     "{dyn}Or, to learn how to set up Commerce, ": "{dyn}或者，要了解如何设置商务功能，",
     "click here": "点击此处",
@@ -201,5 +202,11 @@
     "Audio Player": "音频播放器",
     "Icon...": "图标...",
     "Clock...": "时钟...",
-    "Product...": "产品..."
+    "Product...": "产品...",
+    "Pin...": "固定...",
+    "Overlay...": "叠加...",
+    "Settings...": "设置...",
+    "Set as Homepage": "设为首页",
+    "Copy": "复制",
+    "Direct Link": "直接链接"
 }
