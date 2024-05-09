@@ -65,6 +65,7 @@ function translateNode(node, translations) {
   }
 }
 
+// 主函数
 async function main() {
   const translations = await fetchTranslations();
   translateNode(document.body, translations);
@@ -82,4 +83,5 @@ async function main() {
   observer.observe(document.body, { childList: true, subtree: true, characterData: true });
 }
 
+// 运行主函数
 main();
