@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
-    "name": "您的插件名",
-    "version": "1.0",
+    "name": "cargo 汉化",
+    "version": "2.0",
     "permissions": ["activeTab", "scripting"],
     "background": {
       "service_worker": "background.js"
