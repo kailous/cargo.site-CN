@@ -245,6 +245,6 @@
     "Circle": "圆形",
     "Square": "正方形",
     "Diamond": "菱形",
-    "Slide": "滑动",
-    "Wipe": "擦除"
+    "Slide:": "滑动：",
+    "Wipe:": "擦除："
 }
