@@ -212,5 +212,8 @@
     "New Set": "新建集合",
     "Stack Pages": "堆叠页面",
     "Delete All Pages...": "删除所有页面...",
-    "Pages":"页面"
+    "Pages":"页面",
+    "Pin this page": "固定此页面",
+    "Pin at the bottom": "在底部固定",
+    "Show on Desktop and Mobile": "在桌面和移动端显示"
 }
