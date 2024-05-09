@@ -236,5 +236,15 @@
     "Hesitate": "犹豫",
     "Open on load": "加载时打开",
     "Remove Overlay": "移除叠加层",
-    "Preview": "预览"
+    "Preview": "预览",
+    "无": "无",
+    "← Left": "向左",
+    "→ Right": "向右",
+    "↓ Down": "向下",
+    "↑ Up": "向上",
+    "Circle": "圆形",
+    "Square": "正方形",
+    "Diamond": "菱形",
+    "Slide": "滑动",
+    "Wipe": "擦除"
 }
